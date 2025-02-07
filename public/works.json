@@ -35,7 +35,23 @@
         ],
         "live": "https://kutto-0.web.app",
         "github": "https://github.com/tariqul420/Kutto.git",
-        "details": "https://github.com/tariqul420/Kutto/blob/main/README.md"
+        "details": "https://github.com/tariqul420/Kutto/blob/main/README.md",
+        "category": "Pet Adoption",
+        "technologies": [
+            "React",
+            "TailwindCSS",
+            "Node.js",
+            "MongoDB",
+            "Firebase",
+            "Stripe"
+        ],
+        "projectType": "Full-stack",
+        "platforms": [
+            "Web",
+            "Mobile"
+        ],
+        "launchDate": "2025-01-27",
+        "author": "Tariqul Islam"
     },
     {
         "_id": 2,
@@ -70,7 +86,21 @@
         ],
         "live": "https://service-orbit.web.app",
         "github": "https://github.com/tariqul420/Service-Orbit.git",
-        "details": "https://github.com/tariqul420/Service-Orbit/blob/main/README.md"
+        "details": "https://github.com/tariqul420/Service-Orbit/blob/main/README.md",
+        "category": "Service Sharing",
+        "technologies": [
+            "React",
+            "TailwindCSS",
+            "Node.js",
+            "MongoDB",
+            "JWT"
+        ],
+        "projectType": "Full-stack",
+        "platforms": [
+            "Web"
+        ],
+        "launchDate": "2025-01-15",
+        "author": "Tariqul Islam"
     },
     {
         "_id": 3,
@@ -99,7 +129,20 @@
         ],
         "live": "https://tariqul.vercel.app",
         "github": "https://github.com/tariqul420/tariqul-portfolio-react.git",
-        "details": "https://github.com/tariqul420/tariqul-portfolio/blob/main/README.md"
+        "details": "https://github.com/tariqul420/tariqul-portfolio/blob/main/README.md",
+        "category": "Portfolio",
+        "technologies": [
+            "React",
+            "TailwindCSS",
+            "Framer Motion",
+            "Lottie React"
+        ],
+        "projectType": "Personal",
+        "platforms": [
+            "Web"
+        ],
+        "launchDate": "2025-01-10",
+        "author": "Tariqul Islam"
     },
     {
         "_id": 4,
@@ -134,7 +177,22 @@
         ],
         "live": "https://film-fusion-0.web.app",
         "github": "https://github.com/tariqul420/Film-Fusion.git",
-        "details": "https://github.com/tariqul420/Film-Fusion/blob/main/README.md"
+        "details": "https://github.com/tariqul420/Film-Fusion/blob/main/README.md",
+        "category": "Movie Platform",
+        "technologies": [
+            "React",
+            "TailwindCSS",
+            "Node.js",
+            "MongoDB",
+            "Firebase",
+            "Swiper JS"
+        ],
+        "projectType": "Full-stack",
+        "platforms": [
+            "Web"
+        ],
+        "launchDate": "2025-01-05",
+        "author": "Tariqul Islam"
     },
     {
         "_id": 5,
@@ -154,6 +212,18 @@
         ],
         "live": "https://tariqul420.github.io/Weather-Check/index.html",
         "github": "https://github.com/tariqul420/Weather-Check.git",
-        "details": "https://github.com/tariqul420/Weather-Check/blob/main/README.md"
+        "details": "https://github.com/tariqul420/Weather-Check/blob/main/README.md",
+        "category": "Weather Application",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "projectType": "Frontend",
+        "platforms": [
+            "Web"
+        ],
+        "launchDate": "2025-01-01",
+        "author": "Tariqul Islam"
     }
 ]

@@ -6,6 +6,7 @@ import AboutMe from "../Pages/AboutMe/AboutMe";
 import Skills from "../Pages/Skills/Skills";
 import Works from "../Pages/Works/Works";
 import ContactMe from "../Pages/Contact/ContactMe";
+import ProjectDetails from "@/Pages/ProjectDetails/ProjectDetails";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
             {
                 path: "/contact-me",
                 element: <ContactMe />
+            },
+            {
+                path: "/project-details/:id",
+                element: <ProjectDetails />
             }
         ]
     }

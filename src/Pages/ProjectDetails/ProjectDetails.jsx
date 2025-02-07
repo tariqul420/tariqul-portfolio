@@ -1,0 +1,125 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import { FaSquareGithub, FaArrowLeft } from "react-icons/fa6";
+import { MdLiveTv } from "react-icons/md";
+import { TbListDetails } from "react-icons/tb";
+
+const ProjectDetails = () => {
+    const [project, setProject] = useState(null);
+    const { id } = useParams();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        axios.get("/works.json")
+            .then((res) => {
+                const projectData = res.data.find((p) => p._id === Number(id));
+                setProject(projectData);
+            })
+            .catch((error) => console.error("Error fetching project data:", error));
+    }, [id]);
+
+    if (!project) {
+        return (
+            <div className="flex justify-center items-center min-h-screen bg-gray-100">
+                <div className="text-xl text-gray-600">Loading...</div>
+            </div>
+        );
+    }
+
+    return (
+        <div className="max-w-6xl mx-auto p-8 bg-white shadow-lg rounded-xl my-6 dark:bg-dark-lite dark:text-white-deep">
+            {/* 🔙 Back Button */}
+            <button
+                onClick={() => navigate(-1)}
+                className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary2 mb-6"
+            >
+                <FaArrowLeft size={20} />
+                <span>Back</span>
+            </button>
+
+            {/* Title and Description */}
+            <div className="text-center mb-8">
+                <h1 className="text-4xl font-bold text-gray-800 dark:text-white">{project.heading}</h1>
+                <p className="text-lg text-gray-600 mt-4 dark:text-gray-300 text-justify">{project.paragraph}</p>
+            </div>
+
+            {/* Project Image */}
+            <div className="flex justify-center mb-8">
+                <img
+                    src={project.image}
+                    alt={`${project.heading} Screenshot`}
+                    className="rounded-lg shadow-2xl w-full max-w-3xl"
+                />
+            </div>
+
+            {/* Project Overview */}
+            <div className="mb-8">
+                <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Project Overview</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                    <div className="text-lg text-gray-700 dark:text-gray-300">
+                        <p><strong className="font-semibold">Category:</strong> {project.category}</p>
+                        <p><strong className="font-semibold">Launch Date:</strong> {project.launchDate}</p>
+                        <p><strong className="font-semibold">Author:</strong> {project.author}</p>
+                    </div>
+                    <div className="text-lg text-gray-700 dark:text-gray-300">
+                        <p><strong className="font-semibold">Project Type:</strong> {project.projectType}</p>
+                        <p><strong className="font-semibold">Platforms:</strong> {project.platforms.join(", ")}</p>
+                    </div>
+                    <div className="text-lg text-gray-700 dark:text-gray-300">
+                        <p><strong className="font-semibold">Technologies:</strong> {project.technologies.join(", ")}</p>
+                    </div>
+                </div>
+            </div>
+
+            {/* Technologies Used */}
+            <div className="mb-8">
+                <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Technologies Used</h2>
+                <div className="flex flex-wrap gap-4 mt-6">
+                    {project.tools.map((tool, index) => (
+                        <span key={index} className="px-4 py-2 rounded-full bg-gray-200 text-gray-800 text-sm font-medium">
+                            {tool?.name}
+                        </span>
+                    ))}
+                </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex justify-between items-center mt-8 space-x-6">
+                <a
+                    href={project.live}
+                    className="flex items-center text-lg font-semibold text-primary2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <MdLiveTv size={24} className="mr-2" />
+                    Live Demo
+                </a>
+                <a
+                    href={project.github}
+                    className="flex items-center text-lg font-semibold text-primary2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaSquareGithub size={24} className="mr-2" />
+                    GitHub Repository
+                </a>
+            </div>
+
+            {/* Documentation Link */}
+            <div className="mt-8 text-center">
+                <a
+                    href={project.details}
+                    className="text-lg font-semibold text-primary2 flex items-center justify-center gap-2 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <TbListDetails size={24} />
+                    <span>Detailed Documentation</span>
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default ProjectDetails;

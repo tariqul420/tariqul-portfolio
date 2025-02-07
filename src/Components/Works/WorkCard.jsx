@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import { FaEye, FaGithub, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const WorkCard = ({ work }) => {
-    const { image, heading, paragraph, tools, live, github, details } = work || {};
+    const { _id, image, heading, paragraph, tools, live, github } = work || {};
 
     return (
         <div className="flex flex-col border rounded-[16px] w-full dark:border-[#172635]">
@@ -35,10 +36,10 @@ const WorkCard = ({ work }) => {
                             <span className="text-[12px] underline">Github</span>
                         </a>
 
-                        <a href={details} target="_blank" className="flex items-center gap-[4px]">
+                        <Link to={`/project-details/${_id}`} className="flex items-center gap-[4px]">
                             <FaEye />
                             <span className="text-[12px] underline">Details</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
