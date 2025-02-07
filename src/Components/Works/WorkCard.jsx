@@ -19,8 +19,8 @@ const WorkCard = ({ work }) => {
                     {paragraph.slice(0, 110)}...
                 </p>
                 <div className="flex gap-[6px] mt-[8px] flex-wrap">
-                    {tools.map((tool, index) => (
-                        <span key={index} className="language">{tool?.name}</span>
+                    {tools?.map((tool, index) => (
+                        <span key={index} className="language">{tool}</span>
                     ))}
                 </div>
                 {/* Spacer pushes content above to the top */}
