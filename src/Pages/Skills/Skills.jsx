@@ -49,7 +49,7 @@ const Skills = () => {
                 {/* Current Learning */}
                 <SkillCard title="Current Learning" skills={learningSkills} />
 
-                {/* Empty Middle Column (only visible on large screens) */}
+                {/* Empty Middle Column */}
                 <div className="hidden lg:block"></div>
 
                 {/* Comfortable */}
@@ -61,25 +61,11 @@ const Skills = () => {
 };
 
 const SkillCard = ({ title, skills }) => (
-    <div className="p-6 bg-white dark:bg-dark-lite rounded-xl shadow-md">
+    <div className="p-6 bg-white dark:bg-dark-lite rounded-xl">
         <button className="px-4 py-2 gap-2 bg-white-lite rounded-lg mb-4 flex items-center gap- dark:bg-dark-deep">
             <FaArrowRight /> {title}
         </button>
         <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
-            {skills?.map((skill, index) => (
-                <SkillItem key={index} skill={skill} />
-            ))}
-        </div>
-    </div>
-);
-
-// Reusable Skill Category Component
-const SkillCategory = ({ title, skills }) => (
-    <div className="flex flex-col items-center justify-center mt-10">
-        <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
-            <FaArrowRight /> {title}
-        </button>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {skills?.map((skill, index) => (
                 <SkillItem key={index} skill={skill} />
             ))}
@@ -96,11 +82,6 @@ const SkillItem = ({ skill }) => (
 );
 
 SkillCard.propTypes = {
-    title: PropTypes.string.isRequired,
-    skills: PropTypes.array.isRequired,
-};
-
-SkillCategory.propTypes = {
     title: PropTypes.string.isRequired,
     skills: PropTypes.array.isRequired,
 };

@@ -11,7 +11,7 @@ const WorkCard = ({ work }) => {
                 src={image}
                 className="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]"
             />
-            <div className="flex flex-col p-[14px] flex-grow dark:bg-dark-lite bg-white">
+            <div className="flex flex-col p-[14px] flex-grow dark:bg-dark-lite bg-white rounded-b-[16px]">
                 <h1 className="font-medium text-[#172635] text-start text-splice dark:text-white-lite">
                     {heading}
                 </h1>
