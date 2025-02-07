@@ -41,15 +41,15 @@ const ProjectDetails = () => {
 
             {/* Title and Description */}
             <div className="text-center mb-8">
-                <h1 className="text-4xl font-bold text-gray-800 dark:text-white">{project.heading}</h1>
-                <p className="text-lg text-gray-600 mt-4 dark:text-gray-300 text-justify">{project.paragraph}</p>
+                <h1 className="text-4xl font-bold text-gray-800 dark:text-white">{project?.heading}</h1>
+                <p className="text-lg text-gray-600 mt-4 dark:text-gray-300 text-justify">{project?.paragraph}</p>
             </div>
 
             {/* Project Image */}
             <div className="flex justify-center mb-8">
                 <img
-                    src={project.image}
-                    alt={`${project.heading} Screenshot`}
+                    src={project?.image}
+                    alt={`${project?.heading} Screenshot`}
                     className="rounded-lg shadow-2xl w-full max-w-3xl"
                 />
             </div>
@@ -59,36 +59,56 @@ const ProjectDetails = () => {
                 <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Project Overview</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                     <div className="text-lg text-gray-700 dark:text-gray-300">
-                        <p><strong className="font-semibold">Category:</strong> {project.category}</p>
-                        <p><strong className="font-semibold">Launch Date:</strong> {project.launchDate}</p>
-                        <p><strong className="font-semibold">Author:</strong> {project.author}</p>
+                        <p><strong className="font-semibold">Category:</strong> {project?.category}</p>
+                        <p><strong className="font-semibold">Launch Date:</strong> {project?.launchDate}</p>
+                        <p><strong className="font-semibold">Author:</strong> {project?.author}</p>
                     </div>
                     <div className="text-lg text-gray-700 dark:text-gray-300">
-                        <p><strong className="font-semibold">Project Type:</strong> {project.projectType}</p>
-                        <p><strong className="font-semibold">Platforms:</strong> {project.platforms.join(", ")}</p>
+                        <p><strong className="font-semibold">Project Type:</strong> {project?.projectType}</p>
+                        <p><strong className="font-semibold">Platforms:</strong> {project?.platforms.join(", ")}</p>
                     </div>
                     <div className="text-lg text-gray-700 dark:text-gray-300">
-                        <p><strong className="font-semibold">Technologies:</strong> {project.technologies.join(", ")}</p>
+                        <p><strong className="font-semibold">Technologies:</strong> {project?.technologies?.join(", ")}</p>
                     </div>
                 </div>
+            </div>
+
+            {/* 🔥 Challenges Faced */}
+            <div className="mb-8">
+                <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Challenges Faced</h2>
+                <ul className="list-disc list-inside text-lg text-gray-700 dark:text-gray-300 mt-4">
+                    {project?.challenges?.map((challenge, index) => (
+                        <li key={index}>{challenge}</li>
+                    ))}
+                </ul>
             </div>
 
             {/* Technologies Used */}
             <div className="mb-8">
                 <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Technologies Used</h2>
                 <div className="flex flex-wrap gap-4 mt-6">
-                    {project.tools.map((tool, index) => (
+                    {project?.tools?.map((tool, index) => (
                         <span key={index} className="px-4 py-2 rounded-full bg-gray-200 text-gray-800 text-sm font-medium">
-                            {tool?.name}
+                            {tool}
                         </span>
                     ))}
                 </div>
             </div>
 
+            {/* 🚀 Future Plans */}
+            <div className="mb-8">
+                <h2 className="text-3xl font-semibold text-gray-800 dark:text-white">Future Plans</h2>
+                <ul className="list-disc list-inside text-lg text-gray-700 dark:text-gray-300 mt-4">
+                    {project?.futurePlans?.map((plan, index) => (
+                        <li key={index}>{plan}</li>
+                    ))}
+                </ul>
+            </div>
+
             {/* Action Buttons */}
             <div className="flex justify-between items-center mt-8 space-x-6">
                 <a
-                    href={project.live}
+                    href={project?.live}
                     className="flex items-center text-lg font-semibold text-primary2"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -97,7 +117,7 @@ const ProjectDetails = () => {
                     Live Demo
                 </a>
                 <a
-                    href={project.github}
+                    href={project?.github}
                     className="flex items-center text-lg font-semibold text-primary2"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -110,7 +130,7 @@ const ProjectDetails = () => {
             {/* Documentation Link */}
             <div className="mt-8 text-center">
                 <a
-                    href={project.details}
+                    href={project?.details}
                     className="text-lg font-semibold text-primary2 flex items-center justify-center gap-2 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"

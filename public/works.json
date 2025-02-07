@@ -5,33 +5,15 @@
         "heading": "🐹 Kutto",
         "paragraph": "Welcome to Kutto, a modern web application designed to facilitate the adoption and donation process for pets. With an intuitive interface, seamless adoption flow, and user-friendly donation system, Kutto aims to revolutionize the way we interact with pet adoption.",
         "tools": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "TailwindCSS"
-            },
-            {
-                "name": "Firebase"
-            },
-            {
-                "name": "Node.js"
-            },
-            {
-                "name": "MongoDB"
-            },
-            {
-                "name": "Javascript"
-            },
-            {
-                "name": "Stripe"
-            },
-            {
-                "name": "Magic/ui"
-            },
-            {
-                "name": "Keep React"
-            }
+            "React",
+            "TailwindCSS",
+            "Firebase",
+            "Node.js",
+            "MongoDB",
+            "Javascript",
+            "Stripe",
+            "Magic/ui",
+            "Keep React"
         ],
         "live": "https://kutto-0.web.app",
         "github": "https://github.com/tariqul420/Kutto.git",
@@ -51,7 +33,15 @@
             "Mobile"
         ],
         "launchDate": "2025-01-27",
-        "author": "Tariqul Islam"
+        "author": "Tariqul Islam",
+        "challenges": [
+            "Ensuring smooth real-time data updates for pet availability and adoption requests.",
+            "Implementing a secure and efficient payment system for donations using Stripe."
+        ],
+        "futurePlans": [
+            "Introduce AI-powered pet matching recommendations.",
+            "Enhance mobile app UI/UX with more intuitive navigation."
+        ]
     },
     {
         "_id": 2,
@@ -59,30 +49,14 @@
         "heading": "Service Orbit",
         "paragraph": "Service Orbit is a service-sharing web application designed to connect service providers with potential customers. The platform facilitates seamless interactions and transactions, empowering users to discover, offer, and engage with services efficiently.",
         "tools": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "TailwindCSS"
-            },
-            {
-                "name": "Firebase"
-            },
-            {
-                "name": "Node.js"
-            },
-            {
-                "name": "MongoDB"
-            },
-            {
-                "name": "Javascript"
-            },
-            {
-                "name": "JWT"
-            },
-            {
-                "name": "Express js"
-            }
+            "React",
+            "TailwindCSS",
+            "Firebase",
+            "Node.js",
+            "MongoDB",
+            "Javascript",
+            "JWT",
+            "Express js"
         ],
         "live": "https://service-orbit.web.app",
         "github": "https://github.com/tariqul420/Service-Orbit.git",
@@ -100,32 +74,28 @@
             "Web"
         ],
         "launchDate": "2025-01-15",
-        "author": "Tariqul Islam"
+        "author": "Tariqul Islam",
+        "challenges": [
+            "Managing secure authentication and authorization for service providers and customers.",
+            "Handling real-time service availability and booking system."
+        ],
+        "futurePlans": [
+            "Implement AI-powered service recommendations based on user preferences.",
+            "Introduce a review and rating system for service providers."
+        ]
     },
     {
         "_id": 3,
         "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737973506/tariqul-portfolio_wwu0mi.png",
         "heading": "Tariqul Islam",
-        "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications. With expertise in modern front-end technologies like React, Tailwind CSS, and DaisyUI & others UI components, I strive to deliver seamless user experiences. On the backend, I leverage Node.js and MongoDB to build robust and scalable applications. Currently, I’m pursuing my studies while honing my skills to stay ahead in the ever-evolving tech landscape. Whether it's developing innovative platforms like Service Orbit or crafting sleek designs for Film Fusion, I thrive on solving challenges and turning ideas into reality. Let’s collaborate to bring your vision to life!",
+        "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications.",
         "tools": [
-            {
-                "name": "Javascript"
-            },
-            {
-                "name": "TailwindCSS"
-            },
-            {
-                "name": "React"
-            },
-            {
-                "name": "Magic/ui"
-            },
-            {
-                "name": "Framer Motion"
-            },
-            {
-                "name": "Lottie React"
-            }
+            "Javascript",
+            "TailwindCSS",
+            "React",
+            "Magic/ui",
+            "Framer Motion",
+            "Lottie React"
         ],
         "live": "https://tariqul.vercel.app",
         "github": "https://github.com/tariqul420/tariqul-portfolio-react.git",
@@ -142,38 +112,30 @@
             "Web"
         ],
         "launchDate": "2025-01-10",
-        "author": "Tariqul Islam"
+        "author": "Tariqul Islam",
+        "challenges": [
+            "Optimizing animations for smooth performance on all devices.",
+            "Creating an engaging and dynamic UI with modern design principles."
+        ],
+        "futurePlans": [
+            "Add a blog section to share development insights and experiences.",
+            "Enhance accessibility features for a more inclusive experience."
+        ]
     },
     {
         "_id": 4,
         "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737974282/film-fusion_dmcdzo.png",
         "heading": "Film Fusion",
-        "paragraph": "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts. It serves as a centralized hub for exploring, reviewing, and managing information about films and series. The platform is built with modern web technologies, ensuring a seamless user experience and aesthetic appeal.",
+        "paragraph": "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts. It serves as a centralized hub for exploring, reviewing, and managing information about films and series.",
         "tools": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "TailwindCSS"
-            },
-            {
-                "name": "Firebase"
-            },
-            {
-                "name": "MongoDB"
-            },
-            {
-                "name": "Javascript"
-            },
-            {
-                "name": "Node.js"
-            },
-            {
-                "name": "Express js"
-            },
-            {
-                "name": "Swiper js"
-            }
+            "React",
+            "TailwindCSS",
+            "Firebase",
+            "MongoDB",
+            "Javascript",
+            "Node.js",
+            "Express js",
+            "Swiper js"
         ],
         "live": "https://film-fusion-0.web.app",
         "github": "https://github.com/tariqul420/Film-Fusion.git",
@@ -192,23 +154,25 @@
             "Web"
         ],
         "launchDate": "2025-01-05",
-        "author": "Tariqul Islam"
+        "author": "Tariqul Islam",
+        "challenges": [
+            "Handling a large database of movies and reviews efficiently.",
+            "Ensuring fast search and filtering for movies with high performance."
+        ],
+        "futurePlans": [
+            "Integrate AI-powered movie recommendations.",
+            "Develop a mobile-friendly progressive web app (PWA) version."
+        ]
     },
     {
         "_id": 5,
         "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737975981/weather-check_wc3bxm.png",
         "heading": "Weather Checked",
-        "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day, whether at home, work, or while traveling. With a sleek and intuitive interface, you can easily check the current weather, forecast, and other key meteorological details, including temperature, humidity, wind speed, and precipitation. The app leverages reliable data from weather APIs to deliver accurate information for cities around the world.",
+        "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
         "tools": [
-            {
-                "name": "HTML"
-            },
-            {
-                "name": "Javascript"
-            },
-            {
-                "name": "CSS"
-            }
+            "HTML",
+            "Javascript",
+            "CSS"
         ],
         "live": "https://tariqul420.github.io/Weather-Check/index.html",
         "github": "https://github.com/tariqul420/Weather-Check.git",
@@ -224,6 +188,14 @@
             "Web"
         ],
         "launchDate": "2025-01-01",
-        "author": "Tariqul Islam"
+        "author": "Tariqul Islam",
+        "challenges": [
+            "Ensuring accurate real-time weather data from API sources.",
+            "Optimizing API calls to prevent excessive requests and loading delays."
+        ],
+        "futurePlans": [
+            "Implement a location-based automatic weather update feature.",
+            "Introduce a historical weather data tracking system."
+        ]
     }
 ]
