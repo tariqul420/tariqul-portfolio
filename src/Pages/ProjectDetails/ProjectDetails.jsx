@@ -1,9 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { FaSquareGithub, FaArrowLeft } from "react-icons/fa6";
+import { FiGithub } from "react-icons/fi";
 import { MdLiveTv } from "react-icons/md";
 import { TbListDetails } from "react-icons/tb";
+import { FaArrowLeft } from "react-icons/fa";
 
 const ProjectDetails = () => {
     const [project, setProject] = useState(null);
@@ -32,7 +33,7 @@ const ProjectDetails = () => {
             {/* 🔙 Back Button */}
             <button
                 onClick={() => navigate(-1)}
-                className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary2 mb-6"
+                className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary2 dark:hover:text-primary2 mb-6"
             >
                 <FaArrowLeft size={20} />
                 <span>Back</span>
@@ -92,7 +93,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <MdLiveTv size={24} className="mr-2" />
+                    <MdLiveTv size={24} className="mr-2 text-dark-deep dark:text-white" />
                     Live Demo
                 </a>
                 <a
@@ -101,7 +102,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaSquareGithub size={24} className="mr-2" />
+                    <FiGithub size={24} className="mr-2 text-dark-deep dark:text-white" />
                     GitHub Repository
                 </a>
             </div>
@@ -114,7 +115,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <TbListDetails size={24} />
+                    <TbListDetails size={24} className="text-dark-deep dark:text-white" />
                     <span>Detailed Documentation</span>
                 </a>
             </div>
