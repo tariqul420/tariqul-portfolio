@@ -38,17 +38,17 @@ const AboutMe = () => {
                     <h2 className="text-center lg:text-start text-3xl text-primary1 font-semibold leading-[48px] mb-10">
                         Md. Tariqul Islam
                     </h2>
-                    <p className="text-center lg:text-start text-[1.1rem] text-dark-lite font-medium leading-[31px] dark:text-white-deep">
+                    <p className="text-justify text-[1.1rem] text-dark-lite font-medium leading-[31px] dark:text-white-deep">
                         Hey there! 👋 I’m <strong>Tariqul Islam</strong>, a passionate
                         <strong>Junior Frontend Developer</strong> with a focus on creating
-                        <strong>modern, interactive, and high-performance web applications</strong>.
+                        <strong> modern, interactive, and high-performance web applications</strong>.
                         My journey into programming started from a simple curiosity—how do websites work?
                         That curiosity soon turned into an obsession with crafting seamless user experiences
                         and bringing ideas to life through code.
                     </p>
                 </div>
             </div>
-            <p className="text-center lg:text-start text-[1.1rem] text-dark-lite font-medium leading-[31px] dark:text-white-deep">
+            <p className="text-justify text-[1.1rem] text-dark-lite font-medium leading-[31px] dark:text-white-deep">
                 <br />
                 Over time, I have mastered React, TypeScript, Tailwind CSS, and backend technologies like Node.js & MongoDB.
                 Whether its developing feature-rich web apps, building scalable backend systems, or optimizing UI/UX,
