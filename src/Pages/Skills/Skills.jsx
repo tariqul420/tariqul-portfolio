@@ -1,4 +1,5 @@
 import ParticlesUI from "@/Animation/ParticlesUI";
+import { SkillCloud } from "@/Components/Skills/SkillCloud";
 import axios from "axios";
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
@@ -49,8 +50,7 @@ const Skills = () => {
                 {/* Current Learning */}
                 <SkillCard title="Current Learning" skills={learningSkills} />
 
-                {/* Empty Middle Column */}
-                <div className="hidden lg:block"></div>
+                <SkillCloud />
 
                 {/* Comfortable */}
                 <SkillCard title="Comfortable" skills={comfortableSkills} />
