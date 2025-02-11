@@ -1,10 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import { ImSpinner6 } from "react-icons/im";
 import { MdLiveTv } from "react-icons/md";
 import { TbListDetails } from "react-icons/tb";
-import { FaArrowLeft } from "react-icons/fa";
+import { useNavigate, useParams } from "react-router-dom";
 
 const ProjectDetails = () => {
     const [project, setProject] = useState(null);
@@ -23,7 +24,7 @@ const ProjectDetails = () => {
     if (!project) {
         return (
             <div className="flex justify-center items-center min-h-screen bg-gray-100">
-                <div className="text-xl text-gray-600">Loading...</div>
+                <ImSpinner6 size={25} className="text-primary2 animate-spin" />
             </div>
         );
     }
@@ -106,7 +107,7 @@ const ProjectDetails = () => {
             </div>
 
             {/* Action Buttons */}
-            <div className="flex justify-between items-center mt-8 space-x-6">
+            <div className="flex flex-col md:flex-row gap-4 justify-between items-center mt-8 space-x-6">
                 <a
                     href={project?.live}
                     className="flex items-center text-lg font-semibold text-primary2"
@@ -128,7 +129,7 @@ const ProjectDetails = () => {
             </div>
 
             {/* Documentation Link */}
-            <div className="mt-8 text-center">
+            <div className="mt-4 md:mt-8 text-center">
                 <a
                     href={project?.details}
                     className="text-lg font-semibold text-primary2 flex items-center justify-center gap-2 hover:underline"

@@ -49,7 +49,7 @@ const Home = () => {
             {/* Scroll to Top Button */}
             {showScrollButton && (
                 <button
-                    className="fixed bottom-6 right-3 text-primary2 bg-white dark:bg-dark-lite p-0 rounded-full shadow-lg"
+                    className="fixed bottom-6 right-3 text-primary2 bg-white dark:bg-dark-lite p-0 rounded-full shadow-lg max-sm:hidden"
                     onClick={scrollToTop}
                 >
                     <IoIosArrowDropup className="text-5xl" />
