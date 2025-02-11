@@ -1,9 +1,9 @@
+import ParticlesUI from "@/Animation/ParticlesUI";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaArrowRight, FaFacebook, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import ContactForm from "../../Components/ContactMe/ContactForm";
 import { IoLogoWhatsapp, IoMdMail } from "react-icons/io";
-import ParticlesUI from "@/Animation/ParticlesUI";
+import ContactForm from "../../Components/ContactMe/ContactForm";
 
 const ContactMe = () => {
     return (
@@ -43,7 +43,21 @@ const ContactMe = () => {
                         <a href="https://www.facebook.com/tariqul.islam.fb" target="_blank">
                             <FaFacebook className="hero-icon lang" />
                         </a>
-                        <a href="mailto:tariqul.developer@gmail.com" target="_blank">
+                        <a className="lg:hidden"
+                            href="mailto:tariqul.developer@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Email"
+                        >
+                            <IoMdMail className="hero-icon lang" />
+                        </a>
+                        <a
+                            className="hidden lg:block"
+                            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.developer@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Email"
+                        >
                             <IoMdMail className="hero-icon lang" />
                         </a>
                         <a href="https://wa.me/8801743892058" target="_blank">

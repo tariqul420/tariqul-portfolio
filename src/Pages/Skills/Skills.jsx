@@ -35,25 +35,33 @@ const Skills = () => {
 
                 {/* Skills Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Frontend Skills */}
                     <SkillCard title="Frontend" skills={frontEnd} />
 
-                    {/* Backend Skills */}
-                    <SkillCard title="Backend" skills={backEnd} />
+                    <div className="order-0">
+                        <SkillCard title="Backend" skills={backEnd} />
+                    </div>
 
-                    {/* Tools */}
                     <SkillCard title="Tools" skills={tools} />
                 </div>
             </div>
 
             <div className="w-full mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                {/* only show md screen */}
+                <div className="hidden md:block lg:hidden"></div>
+
                 {/* Current Learning */}
-                <SkillCard title="Current Learning" skills={learningSkills} />
+                <div className="md:order-2 lg:order-none">
+                    <SkillCard title="Current Learning" skills={learningSkills} />
+                </div>
 
-                <SkillCloud />
+                <div className="md:order-0 lg:order-none lg:-mt-32">
+                    <SkillCloud />
+                </div>
 
-                {/* Comfortable */}
-                <SkillCard title="Comfortable" skills={comfortableSkills} />
+                <div className="order-none">
+                    <SkillCard title="Comfortable" skills={comfortableSkills} />
+                </div>
             </div>
 
         </section>

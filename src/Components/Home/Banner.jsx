@@ -69,7 +69,7 @@ const Banner = () => {
                         </a>
                         <a
                             className="hidden lg:block"
-                            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com"
+                            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.developer@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Email"
