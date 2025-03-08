@@ -5,7 +5,7 @@ import BestQuality from "../../assets/Images/quality.svg"
 import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
-    const resumeLink = "https://drive.google.com/uc?export=download&id=1nNowXsyJHRgKnWDXEjqhlbDkvxiy_Q_1";
+    const resumeLink = "https://drive.google.com/uc?export=download&id=10KuivzPbIRA8GThsQXZc2BQvXG96xWvy";
 
     const handelResumeDownload = () => {
         const link = document.createElement("a");
@@ -36,7 +36,7 @@ const Banner = () => {
                     {/* Social Links */}
                     <div className="flex gap-3 items-center justify-center lg:justify-start mt-3">
                         <a
-                            href="https://www.linkedin.com/in/tariqul420/"
+                            href="https://www.linkedin.com/in/tariqul-420-t/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn"

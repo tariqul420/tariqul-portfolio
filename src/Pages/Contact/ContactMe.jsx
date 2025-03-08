@@ -34,7 +34,7 @@ const ContactMe = () => {
                         </li>
                     </ul>
                     <div className="flex gap-2 sm:gap-3 items-center justify-center lg:justify-start mt-8 sm:mt-12">
-                        <a href="https://www.linkedin.com/in/tariqul420/" target="_blank">
+                        <a href="https://www.linkedin.com/in/tariqul-420-t/" target="_blank">
                             <FaLinkedin className="hero-icon lang" />
                         </a>
                         <a href="https://github.com/tariqul420" target="_blank">

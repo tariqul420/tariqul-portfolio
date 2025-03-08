@@ -123,6 +123,29 @@
         ]
     },
     {
+        "_id": 6,
+        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1741406434/fkrdpfvu6sozvkabaxyx.png",
+        "heading": "Bangladesh Army and Police",
+        "paragraph": "A resource hub providing essential information about the Bangladesh Army and Police services, offering recruitment details, news updates, and official guidelines.",
+        "tools": [
+            "Next Js",
+            "TypeScript",
+            "TailwindCSS",
+            "Mongoose",
+            "MongoDB",
+            "React Leaflet"
+        ],
+        "live": "https://bd-army-police.vercel.app/",
+        "github": "https://github.com/tariqul420/bd-army-police.git",
+        "category": "Informational",
+        "projectType": "Full-stack",
+        "platforms": [
+            "Web"
+        ],
+        "launchDate": "2025-02-15",
+        "author": "Tariqul Islam"
+    },
+    {
         "_id": 4,
         "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737974282/film-fusion_dmcdzo.png",
         "heading": "Film Fusion",
