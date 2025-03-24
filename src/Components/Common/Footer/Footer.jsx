@@ -1,10 +1,6 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io5";
-import { SiGmail } from "react-icons/si";
+import { Facebook, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
-
-
     return (
         <footer className="py-4 px-4  border border-solid dark:border-none bg-gradient-to-r from-[#E9F2FF] to-[#F2F6FA] dark:bg-gradient-to-r dark:from-dark-lite dark:to-dark-light dark:text-white-deep">
             <div className="w-11/12 flex-col lg:flex-row flex items-center justify-between mx-auto space-y-4">
@@ -61,7 +57,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaFacebook className="hero-icon lang" />
+                                    <Facebook className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -70,7 +66,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaGithub className="hero-icon lang" />
+                                    <Github className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -79,7 +75,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaLinkedin className="hero-icon lang" />
+                                    <Linkedin className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -88,20 +84,21 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <IoLogoWhatsapp className="hero-icon lang" />
+                                    <Phone className="hero-icon lang" />
                                 </a>
                             </li>
-                            <ul>
-                                <a className="lg:hidden"
+                            <li>
+                                <a
+                                    className="lg:hidden"
                                     href="mailto:tariqul.developer@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Email"
                                 >
-                                    <SiGmail className="hero-icon lang" />
+                                    <Mail className="hero-icon lang" />
                                 </a>
-                            </ul>
-                            <ul>
+                            </li>
+                            <li>
                                 <a
                                     className="hidden lg:block"
                                     href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.developer@gmail.com"
@@ -109,9 +106,9 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     aria-label="Email"
                                 >
-                                    <SiGmail className="hero-icon lang" />
+                                    <Mail className="hero-icon lang" />
                                 </a>
-                            </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
