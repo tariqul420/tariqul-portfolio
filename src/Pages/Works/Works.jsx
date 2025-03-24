@@ -1,10 +1,10 @@
+import ParticlesUI from "@/Animation/ParticlesUI";
 import axios from "axios";
+import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import { FaArrowRight } from "react-icons/fa";
-import WorkCard from "../../Components/Works/WorkCard";
 import { useLocation } from "react-router-dom";
-import ParticlesUI from "@/Animation/ParticlesUI";
+import WorkCard from "../../Components/Works/WorkCard";
 
 const Works = () => {
     const [works, setWorks] = useState([]);
@@ -27,7 +27,7 @@ const Works = () => {
             }
 
             <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
-                <FaArrowRight /> Works
+                <ArrowRight /> Works
             </button>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
