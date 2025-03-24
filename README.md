@@ -46,7 +46,7 @@ Feel free to reach out through any of these platforms:
 - 🌐 [Portfolio Website](https://tariqul.vercel.app/)
 - 📧 [tariqul.developer@gmail.com](mailto:tariqul.developer@gmail.com)
 - 📢 [Facebook](https://www.facebook.com/tariqul.islam.fb)
-- 💼 [LinkedIn](https://linkedin.com/in/tariqul)
+- 💼 [LinkedIn](https://linkedin.com/in/tariqul-420-t)
 - 📱 [WhatsApp](https://wa.me/+8801743892058)
 
 ---
@@ -91,4 +91,4 @@ Feel free to reach out through any of these platforms:
 
 ## **Live Link**
 
-[tariqul.me](https://tariqul.vercel.app/)
+[https://tariqul.me](https://tariqul.vercel.app)
