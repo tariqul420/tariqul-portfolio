@@ -1,5 +1,5 @@
+import { Eye, Github, Link2 } from "lucide-react";
 import PropTypes from "prop-types";
-import { FaEye, FaGithub, FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const WorkCard = ({ work }) => {
@@ -9,6 +9,7 @@ const WorkCard = ({ work }) => {
         <div className="flex flex-col border rounded-[16px] w-full dark:border-[#172635]">
             <img
                 src={image}
+                alt={heading || "Work image"}
                 className="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]"
             />
             <div className="flex flex-col p-[14px] flex-grow dark:bg-dark-lite bg-white rounded-b-[16px]">
@@ -27,17 +28,17 @@ const WorkCard = ({ work }) => {
                 <div className="flex-grow"></div>
                 <div className="flex justify-between items-center mt-5 cursor-pointer dark:text-white-deep">
                     <a href={live} target="_blank" className="flex items-center gap-[6px]">
-                        <FaLink />
+                        <Link2 />
                         <span className="text-[12px] underline">Live Preview</span>
                     </a>
                     <div className="flex items-center gap-[10px]">
                         <a href={github} target="_blank" className="flex items-center gap-[6px]">
-                            <FaGithub />
+                            <Github />
                             <span className="text-[12px] underline">Github</span>
                         </a>
 
                         <Link to={`/project-details/${_id}`} className="flex items-center gap-[4px]">
-                            <FaEye />
+                            <Eye />
                             <span className="text-[12px] underline">Details</span>
                         </Link>
                     </div>

@@ -1,9 +1,9 @@
 import ParticlesUI from "@/Animation/ParticlesUI";
 import { SkillCloud } from "@/Components/Skills/SkillCloud";
 import axios from "axios";
+import { ArrowRight } from "lucide-react";
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 
 const Skills = () => {
@@ -30,7 +30,7 @@ const Skills = () => {
             {/* Section Title */}
             <div className="flex flex-col items-center justify-center">
                 <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
-                    <FaArrowRight /> Skills
+                    <ArrowRight /> Skills
                 </button>
 
                 {/* Skills Grid */}
@@ -71,7 +71,7 @@ const Skills = () => {
 const SkillCard = ({ title, skills }) => (
     <div className="p-6 bg-white dark:bg-dark-lite rounded-xl">
         <button className="px-4 py-2 gap-2 bg-white-lite rounded-lg mb-4 flex items-center gap- dark:bg-dark-deep">
-            <FaArrowRight /> {title}
+            <ArrowRight /> {title}
         </button>
         <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
             {skills?.map((skill, index) => (

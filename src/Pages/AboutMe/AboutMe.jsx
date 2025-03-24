@@ -1,9 +1,6 @@
 import ParticlesUI from "@/Animation/ParticlesUI";
 import ShineBorder from "@/Components/ui/shine-border";
-import { BsCodeSquare } from "react-icons/bs";
-import { FaArrowRight, FaRegLightbulb } from "react-icons/fa";
-import { SiPolymerproject } from "react-icons/si";
-import { SlRocket } from "react-icons/sl";
+import { ArrowRight, FolderKanban, Lightbulb, Rocket, Terminal } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import Tariqul from "../../assets/Images/tariqul-logo.jpg";
 
@@ -36,7 +33,7 @@ const AboutMe = () => {
                 <div className="lg:w-[70%] flex flex-col items-center lg:items-start text-dark-lite dark:text-white-deep">
                     {/* Section Title */}
                     <button className="px-4 py-2 bg-white rounded-lg mb-4 flex items-center gap-2 shadow-md dark:bg-dark-lite dark:text-white">
-                        <FaArrowRight className="text-primary1" /> About Me
+                        <ArrowRight className="text-primary1" /> About Me
                     </button>
 
                     <h2 className="text-center lg:text-start text-3xl text-primary1 font-semibold leading-[48px] mb-6">
@@ -58,7 +55,7 @@ const AboutMe = () => {
             <div className="mt-10">
                 <p className="text-justify text-lg font-medium leading-[31px]">
                     Over time, I have mastered <strong>React, TypeScript, Tailwind CSS,</strong> and backend technologies like{" "}
-                    <strong>Node.js & MongoDB</strong>. Whether it's developing feature-rich web apps,
+                    <strong>Node.js & MongoDB</strong>. Whether it&apos;s developing feature-rich web apps,
                     building scalable backend systems, or optimizing UI/UX, I thrive on turning complex challenges
                     into simple, elegant solutions.
                 </p>
@@ -66,7 +63,7 @@ const AboutMe = () => {
                 {/* My Passion Section */}
                 <div className="mt-8">
                     <strong className="flex items-center gap-2 text-xl font-semibold">
-                        <FaRegLightbulb className="text-primary1" /> My Passion?
+                        <Lightbulb className="text-primary1" /> My Passion?
                     </strong>
                     <ul className="mt-3 space-y-2 text-lg">
                         <li>- Building highly responsive and scalable applications.</li>
@@ -79,7 +76,7 @@ const AboutMe = () => {
                 {/* Projects Section */}
                 <div className="mt-10">
                     <strong className="flex items-center gap-2 text-xl font-semibold">
-                        <SiPolymerproject className="text-primary1" /> Projects That Define Me:
+                        <FolderKanban className="text-primary1" /> Projects That Define Me:
                     </strong>
                     <ul className="mt-3 space-y-2">
                         <li> -
@@ -108,7 +105,7 @@ const AboutMe = () => {
                 {/* Beyond Coding Section */}
                 <div className="mt-10">
                     <strong className="flex items-center gap-2 text-xl font-semibold">
-                        <BsCodeSquare className="text-primary1" /> Beyond Coding:
+                        <Terminal className="text-primary1" /> Beyond Coding:
                     </strong>
                     <p className="mt-3 text-lg">
                         When I’m not coding, you’ll probably find me cycling through nature trails, exploring new frontend tools,
@@ -119,7 +116,7 @@ const AboutMe = () => {
 
                 {/* Call to Action */}
                 <div className="mt-10 flex items-center gap-2 text-2xl font-semibold">
-                    Let’s create something amazing together! <SlRocket className="text-primary1" />
+                    Let’s create something amazing together! <Rocket className="text-primary1" />
                 </div>
             </div>
         </section>
