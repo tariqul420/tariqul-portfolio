@@ -1,9 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
-import { CiMenuFries } from "react-icons/ci";
+import { AlignJustify, Moon, Sun } from "lucide-react";
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import useTheme from "../../../Hooks/useTheme";
-import { IoMoon, IoSunny } from "react-icons/io5";
-// import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
     const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
@@ -49,9 +47,9 @@ const Navbar = () => {
                     className="p-2 rounded-full bg-white dark:bg-gray-700"
                 >
                     {theme === "dark" ? (
-                        <IoMoon size={24} color="#38BD67" />
+                        <Moon size={24} color="#38BD67" />
                     ) : (
-                        <IoSunny size={24} color="#38BD67" />
+                        <Sun size={24} color="#38BD67" />
                     )}
                 </button>
 
@@ -63,7 +61,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Menu Toggle */}
-                <CiMenuFries
+                <AlignJustify
                     className="text-[1.8rem] mr-1 cursor-pointer lg:hidden flex"
                     onClick={() => setMobileSidebarOpen(!mobileSidebarOpen)}
                 />

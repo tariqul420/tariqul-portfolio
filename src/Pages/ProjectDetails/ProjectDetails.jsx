@@ -1,10 +1,6 @@
 import axios from "axios";
+import { ArrowLeft, Github, Loader, TableProperties, Tv } from "lucide-react";
 import { useEffect, useState } from "react";
-import { FaArrowLeft } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
-import { ImSpinner6 } from "react-icons/im";
-import { MdLiveTv } from "react-icons/md";
-import { TbListDetails } from "react-icons/tb";
 import { useNavigate, useParams } from "react-router-dom";
 
 const ProjectDetails = () => {
@@ -24,7 +20,7 @@ const ProjectDetails = () => {
     if (!project) {
         return (
             <div className="flex justify-center items-center min-h-screen bg-gray-100">
-                <ImSpinner6 size={25} className="text-primary2 animate-spin" />
+                <Loader size={25} className="text-primary2 animate-spin" />
             </div>
         );
     }
@@ -36,7 +32,7 @@ const ProjectDetails = () => {
                 onClick={() => navigate(-1)}
                 className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary2 dark:hover:text-primary2 mb-6"
             >
-                <FaArrowLeft size={20} />
+                <ArrowLeft size={20} />
                 <span>Back</span>
             </button>
 
@@ -114,7 +110,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <MdLiveTv size={24} className="mr-2 text-dark-deep dark:text-white" />
+                    <Tv size={24} className="mr-2 text-dark-deep dark:text-white" />
                     Live Demo
                 </a>
                 <a
@@ -123,7 +119,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FiGithub size={24} className="mr-2 text-dark-deep dark:text-white" />
+                    <Github size={24} className="mr-2 text-dark-deep dark:text-white" />
                     GitHub Repository
                 </a>
             </div>
@@ -136,7 +132,7 @@ const ProjectDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <TbListDetails size={24} className="text-dark-deep dark:text-white" />
+                    <TableProperties size={24} className="text-dark-deep dark:text-white" />
                     <span>Detailed Documentation</span>
                 </a>
             </div>
