@@ -32,13 +32,13 @@ const ContactMe = () => {
                     </ul>
                     <div className="flex gap-2 sm:gap-3 items-center justify-center lg:justify-start mt-8 sm:mt-12">
                         <a href="https://www.linkedin.com/in/tariqul-420-t/" target="_blank">
-                            <Linkedin className="hero-icon lang" />
+                            <Linkedin size={30} className="hero-icon lang" />
                         </a>
                         <a href="https://github.com/tariqul420" target="_blank">
-                            <Github className="hero-icon lang" />
+                            <Github size={30} className="hero-icon lang" />
                         </a>
                         <a href="https://www.facebook.com/tariqul.islam.fb" target="_blank">
-                            <Facebook className="hero-icon lang" />
+                            <Facebook size={30} className="hero-icon lang" />
                         </a>
                         <a className="lg:hidden"
                             href="mailto:tariqul.developer@gmail.com"
@@ -46,7 +46,7 @@ const ContactMe = () => {
                             rel="noopener noreferrer"
                             aria-label="Email"
                         >
-                            <Mail className="hero-icon lang" />
+                            <Mail size={30} className="hero-icon lang" />
                         </a>
                         <a
                             className="hidden lg:block"
@@ -55,10 +55,10 @@ const ContactMe = () => {
                             rel="noopener noreferrer"
                             aria-label="Email"
                         >
-                            <Mail className="hero-icon lang" />
+                            <Mail size={30} className="hero-icon lang" />
                         </a>
                         <a href="https://wa.me/8801743892058" target="_blank">
-                            <Phone className="hero-icon lang" />
+                            <Phone size={30} className="hero-icon lang" />
                         </a>
                     </div>
                 </div>

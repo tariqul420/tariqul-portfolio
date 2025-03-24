@@ -1,9 +1,8 @@
 import axios from "axios";
+import { Ban, Loader } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import { MdError } from "react-icons/md";
-import { TbFidgetSpinner } from "react-icons/tb";
 
 const ContactForm = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
@@ -39,7 +38,7 @@ const ContactForm = () => {
                     {...register("fullName", { required: "Full Name is required" })}
                 />
                 {errors.fullName && (
-                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"> <MdError /> {errors.fullName.message}</p>
+                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"> <Ban /> {errors.fullName.message}</p>
                 )}
             </div>
 
@@ -60,7 +59,7 @@ const ContactForm = () => {
                 />
                 {errors.email && (
                     <p className="text-red-500 text-sm mt-1 flex gap-1 items-center">
-                        <MdError /> {errors.email.message}</p>
+                        <Ban /> {errors.email.message}</p>
                 )}
             </div>
 
@@ -75,14 +74,14 @@ const ContactForm = () => {
                     {...register("message", { required: "Message is required" })}
                 ></textarea>
                 {errors.message && (
-                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"><MdError /> {errors.message.message}</p>
+                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"><Ban /> {errors.message.message}</p>
                 )}
             </div>
 
             {/* Submit Button */}
             <button type="submit" disabled={sending} className={`button cursor-pointer w-full flex items-center justify-center ${sending ? "opacity-70 cursor-not-allowed" : ""}`}>
                 {sending ? (
-                    <TbFidgetSpinner size={25} className='animate-spin m-auto py-1' />
+                    <Loader size={25} className='animate-spin m-auto py-1' />
                 ) : (
                     'SUBMIT'
                 )}

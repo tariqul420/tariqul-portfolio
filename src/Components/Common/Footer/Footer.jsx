@@ -57,7 +57,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Facebook className="hero-icon lang" />
+                                    <Facebook size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -66,7 +66,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Github className="hero-icon lang" />
+                                    <Github size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -75,7 +75,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Linkedin className="hero-icon lang" />
+                                    <Linkedin size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -84,7 +84,7 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Phone className="hero-icon lang" />
+                                    <Phone size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -95,7 +95,7 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     aria-label="Email"
                                 >
-                                    <Mail className="hero-icon lang" />
+                                    <Mail size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                             <li>
@@ -106,7 +106,7 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     aria-label="Email"
                                 >
-                                    <Mail className="hero-icon lang" />
+                                    <Mail size={30} className="hero-icon lang" />
                                 </a>
                             </li>
                         </ul>

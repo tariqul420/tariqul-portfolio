@@ -1,7 +1,7 @@
-import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope } from "react-icons/fa";
-import Robot from "../../assets/Images/robo.png"
-import Responsive from "../../assets/Images/responsive.svg"
-import BestQuality from "../../assets/Images/quality.svg"
+import { Facebook, Github, Linkedin, Mail } from "lucide-react";
+import BestQuality from "../../assets/Images/quality.svg";
+import Responsive from "../../assets/Images/responsive.svg";
+import Robot from "../../assets/Images/robo.png";
 import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
@@ -41,7 +41,7 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             aria-label="LinkedIn"
                         >
-                            <FaLinkedin className="hero-icon lang" />
+                            <Linkedin size={30} className="hero-icon lang" />
                         </a>
                         <a
                             href="https://github.com/tariqul420"
@@ -49,7 +49,7 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             aria-label="GitHub"
                         >
-                            <FaGithub className="hero-icon lang" />
+                            <Github size={30} className="hero-icon lang" />
                         </a>
                         <a
                             href="https://www.facebook.com/tariqul.islam.fb"
@@ -57,7 +57,7 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             aria-label="Facebook"
                         >
-                            <FaFacebook className="hero-icon lang" />
+                            <Facebook size={30} className="hero-icon lang" />
                         </a>
                         <a className="lg:hidden"
                             href="mailto:tariqul.developer@gmail.com"
@@ -65,7 +65,7 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             aria-label="Email"
                         >
-                            <FaEnvelope className="hero-icon lang" />
+                            <Mail size={30} className="hero-icon lang" />
                         </a>
                         <a
                             className="hidden lg:block"
@@ -74,7 +74,7 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             aria-label="Email"
                         >
-                            <FaEnvelope className="hero-icon lang" />
+                            <Mail size={30} className="hero-icon lang" />
                         </a>
                     </div>
 

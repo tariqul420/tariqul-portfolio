@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { IoIosArrowDropup } from "react-icons/io";
 import ParticlesUI from "@/Animation/ParticlesUI";
+import { ChevronUp } from "lucide-react";
+import { useEffect, useState } from "react";
 import Banner from "../../Components/Home/Banner";
 import StartProject from "../../Components/Home/StartProject";
 import AboutMe from "../AboutMe/AboutMe";
@@ -52,7 +52,7 @@ const Home = () => {
                     className="fixed bottom-6 right-3 text-primary2 bg-white dark:bg-dark-lite p-0 rounded-full shadow-lg max-sm:hidden"
                     onClick={scrollToTop}
                 >
-                    <IoIosArrowDropup className="text-5xl" />
+                    <ChevronUp size={40} className="text-5xl" />
                 </button>
             )}
         </div>
