@@ -17,6 +17,17 @@ nav a.active {
   color: #38bd67;
 }
 
+.window-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.window-dot:hover {
+  transform: scale(1.2);
+}
+
 .responsive {
   animation: responsive 4s infinite;
 }
