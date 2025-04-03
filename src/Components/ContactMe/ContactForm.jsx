@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="flex flex-col items-center justify-center space-y-6 w-11/12 mx-auto" onSubmit={handleSubmit(onSubmit)}>
+    <form className="flex flex-col items-center justify-center space-y-6 mx-auto border w-full p-4 rounded-lg dark:border-[#172635]" onSubmit={handleSubmit(onSubmit)}>
       {/* Full Name Field */}
       <div>
         <input

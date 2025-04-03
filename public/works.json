@@ -1,224 +1,106 @@
 [
-    {
-        "_id": 1,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737971458/Screenshot_2025-01-27_154831_rutoix.png",
-        "heading": "🐹 Kutto",
-        "paragraph": "Welcome to Kutto, a modern web application designed to facilitate the adoption and donation process for pets. With an intuitive interface, seamless adoption flow, and user-friendly donation system, Kutto aims to revolutionize the way we interact with pet adoption.",
-        "tools": [
-            "React",
-            "TailwindCSS",
-            "Firebase",
-            "Node.js",
-            "MongoDB",
-            "Javascript",
-            "Stripe",
-            "Magic/ui",
-            "Keep React"
-        ],
-        "live": "https://kutto-0.web.app",
-        "github": "https://github.com/tariqul420/Kutto.git",
-        "details": "https://github.com/tariqul420/Kutto/blob/main/README.md",
-        "category": "Pet Adoption",
-        "technologies": [
-            "React",
-            "TailwindCSS",
-            "Node.js",
-            "MongoDB",
-            "Firebase",
-            "Stripe"
-        ],
-        "projectType": "Full-stack",
-        "platforms": [
-            "Web",
-            "Mobile"
-        ],
-        "launchDate": "2025-01-27",
-        "author": "Tariqul Islam",
-        "challenges": [
-            "Ensuring smooth real-time data updates for pet availability and adoption requests.",
-            "Implementing a secure and efficient payment system for donations using Stripe."
-        ],
-        "futurePlans": [
-            "Introduce AI-powered pet matching recommendations.",
-            "Enhance mobile app UI/UX with more intuitive navigation."
-        ]
-    },
-    {
-        "_id": 2,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737972858/service-orbit_smxhmc.png",
-        "heading": "Service Orbit",
-        "paragraph": "Service Orbit is a service-sharing web application designed to connect service providers with potential customers. The platform facilitates seamless interactions and transactions, empowering users to discover, offer, and engage with services efficiently.",
-        "tools": [
-            "React",
-            "TailwindCSS",
-            "Firebase",
-            "Node.js",
-            "MongoDB",
-            "Javascript",
-            "JWT",
-            "Express js"
-        ],
-        "live": "https://service-orbit.web.app",
-        "github": "https://github.com/tariqul420/Service-Orbit.git",
-        "details": "https://github.com/tariqul420/Service-Orbit/blob/main/README.md",
-        "category": "Service Sharing",
-        "technologies": [
-            "React",
-            "TailwindCSS",
-            "Node.js",
-            "MongoDB",
-            "JWT"
-        ],
-        "projectType": "Full-stack",
-        "platforms": [
-            "Web"
-        ],
-        "launchDate": "2025-01-15",
-        "author": "Tariqul Islam",
-        "challenges": [
-            "Managing secure authentication and authorization for service providers and customers.",
-            "Handling real-time service availability and booking system."
-        ],
-        "futurePlans": [
-            "Implement AI-powered service recommendations based on user preferences.",
-            "Introduce a review and rating system for service providers."
-        ]
-    },
-    {
-        "_id": 3,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737973506/tariqul-portfolio_wwu0mi.png",
-        "heading": "Tariqul Islam",
-        "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications.",
-        "tools": [
-            "Javascript",
-            "TailwindCSS",
-            "React",
-            "Magic/ui",
-            "Framer Motion",
-            "Lottie React"
-        ],
-        "live": "https://tariqul.vercel.app",
-        "github": "https://github.com/tariqul420/tariqul-portfolio-react.git",
-        "details": "https://github.com/tariqul420/tariqul-portfolio/blob/main/README.md",
-        "category": "Portfolio",
-        "technologies": [
-            "React",
-            "TailwindCSS",
-            "Framer Motion",
-            "Lottie React"
-        ],
-        "projectType": "Personal",
-        "platforms": [
-            "Web"
-        ],
-        "launchDate": "2025-01-10",
-        "author": "Tariqul Islam",
-        "challenges": [
-            "Optimizing animations for smooth performance on all devices.",
-            "Creating an engaging and dynamic UI with modern design principles."
-        ],
-        "futurePlans": [
-            "Add a blog section to share development insights and experiences.",
-            "Enhance accessibility features for a more inclusive experience."
-        ]
-    },
-    {
-        "_id": 6,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1741406434/fkrdpfvu6sozvkabaxyx.png",
-        "heading": "Bangladesh Army and Police",
-        "paragraph": "A resource hub providing essential information about the Bangladesh Army and Police services, offering recruitment details, news updates, and official guidelines.",
-        "tools": [
-            "Next Js",
-            "TypeScript",
-            "TailwindCSS",
-            "Mongoose",
-            "MongoDB",
-            "React Leaflet"
-        ],
-        "live": "https://bd-army-police.vercel.app/",
-        "github": "https://github.com/tariqul420/bd-army-police.git",
-        "category": "Informational",
-        "projectType": "Full-stack",
-        "platforms": [
-            "Web"
-        ],
-        "launchDate": "2025-02-15",
-        "author": "Tariqul Islam"
-    },
-    {
-        "_id": 4,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737974282/film-fusion_dmcdzo.png",
-        "heading": "Film Fusion",
-        "paragraph": "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts. It serves as a centralized hub for exploring, reviewing, and managing information about films and series.",
-        "tools": [
-            "React",
-            "TailwindCSS",
-            "Firebase",
-            "MongoDB",
-            "Javascript",
-            "Node.js",
-            "Express js",
-            "Swiper js"
-        ],
-        "live": "https://film-fusion-0.web.app",
-        "github": "https://github.com/tariqul420/Film-Fusion.git",
-        "details": "https://github.com/tariqul420/Film-Fusion/blob/main/README.md",
-        "category": "Movie Platform",
-        "technologies": [
-            "React",
-            "TailwindCSS",
-            "Node.js",
-            "MongoDB",
-            "Firebase",
-            "Swiper JS"
-        ],
-        "projectType": "Full-stack",
-        "platforms": [
-            "Web"
-        ],
-        "launchDate": "2025-01-05",
-        "author": "Tariqul Islam",
-        "challenges": [
-            "Handling a large database of movies and reviews efficiently.",
-            "Ensuring fast search and filtering for movies with high performance."
-        ],
-        "futurePlans": [
-            "Integrate AI-powered movie recommendations.",
-            "Develop a mobile-friendly progressive web app (PWA) version."
-        ]
-    },
-    {
-        "_id": 5,
-        "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737975981/weather-check_wc3bxm.png",
-        "heading": "Weather Checked",
-        "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
-        "tools": [
-            "HTML",
-            "Javascript",
-            "CSS"
-        ],
-        "live": "https://tariqul420.github.io/Weather-Check/index.html",
-        "github": "https://github.com/tariqul420/Weather-Check.git",
-        "details": "https://github.com/tariqul420/Weather-Check/blob/main/README.md",
-        "category": "Weather Application",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ],
-        "projectType": "Frontend",
-        "platforms": [
-            "Web"
-        ],
-        "launchDate": "2025-01-01",
-        "author": "Tariqul Islam",
-        "challenges": [
-            "Ensuring accurate real-time weather data from API sources.",
-            "Optimizing API calls to prevent excessive requests and loading delays."
-        ],
-        "futurePlans": [
-            "Implement a location-based automatic weather update feature.",
-            "Introduce a historical weather data tracking system."
-        ]
-    }
+  {
+    "_id": 1,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737971458/Screenshot_2025-01-27_154831_rutoix.png",
+    "heading": "Kutto",
+    "paragraph": "Welcome to Kutto, a modern web application designed to facilitate the adoption and donation process for pets. With an intuitive interface, seamless adoption flow, and user-friendly donation system, Kutto aims to revolutionize the way we interact with pet adoption.",
+    "tools": ["React", "TailwindCSS", "Firebase", "Node.js", "MongoDB", "Javascript", "Stripe", "Magic/ui", "Keep React"],
+    "live": "https://kutto-0.web.app",
+    "github": "https://github.com/tariqul420/Kutto.git",
+    "details": "https://github.com/tariqul420/Kutto/blob/main/README.md",
+    "category": "Pet Adoption",
+    "technologies": ["React", "TailwindCSS", "Node.js", "MongoDB", "Firebase", "Stripe"],
+    "projectType": "Full-stack",
+    "platforms": ["Web", "Mobile"],
+    "launchDate": "2025-01-27",
+    "author": "Tariqul Islam",
+    "challenges": ["Ensuring smooth real-time data updates for pet availability and adoption requests.", "Implementing a secure and efficient payment system for donations using Stripe."],
+    "futurePlans": ["Introduce AI-powered pet matching recommendations.", "Enhance mobile app UI/UX with more intuitive navigation."]
+  },
+  {
+    "_id": 2,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737972858/service-orbit_smxhmc.png",
+    "heading": "Service Orbit",
+    "paragraph": "Service Orbit is a service-sharing web application designed to connect service providers with potential customers. The platform facilitates seamless interactions and transactions, empowering users to discover, offer, and engage with services efficiently.",
+    "tools": ["React", "TailwindCSS", "Firebase", "Node.js", "MongoDB", "Javascript", "JWT", "Express js"],
+    "live": "https://service-orbit.web.app",
+    "github": "https://github.com/tariqul420/Service-Orbit.git",
+    "details": "https://github.com/tariqul420/Service-Orbit/blob/main/README.md",
+    "category": "Service Sharing",
+    "technologies": ["React", "TailwindCSS", "Node.js", "MongoDB", "JWT"],
+    "projectType": "Full-stack",
+    "platforms": ["Web"],
+    "launchDate": "2025-01-15",
+    "author": "Tariqul Islam",
+    "challenges": ["Managing secure authentication and authorization for service providers and customers.", "Handling real-time service availability and booking system."],
+    "futurePlans": ["Implement AI-powered service recommendations based on user preferences.", "Introduce a review and rating system for service providers."]
+  },
+  {
+    "_id": 3,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737973506/tariqul-portfolio_wwu0mi.png",
+    "heading": "Tariqul Islam",
+    "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications.",
+    "tools": ["Javascript", "TailwindCSS", "React", "Magic/ui", "Framer Motion", "Lottie React"],
+    "live": "https://tariqul.vercel.app",
+    "github": "https://github.com/tariqul420/tariqul-portfolio-react.git",
+    "details": "https://github.com/tariqul420/tariqul-portfolio/blob/main/README.md",
+    "category": "Portfolio",
+    "technologies": ["React", "TailwindCSS", "Framer Motion", "Lottie React"],
+    "projectType": "Personal",
+    "platforms": ["Web"],
+    "launchDate": "2025-01-10",
+    "author": "Tariqul Islam",
+    "challenges": ["Optimizing animations for smooth performance on all devices.", "Creating an engaging and dynamic UI with modern design principles."],
+    "futurePlans": ["Add a blog section to share development insights and experiences.", "Enhance accessibility features for a more inclusive experience."]
+  },
+  {
+    "_id": 6,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1741406434/fkrdpfvu6sozvkabaxyx.png",
+    "heading": "Bangladesh Army and Police",
+    "paragraph": "A resource hub providing essential information about the Bangladesh Army and Police services, offering recruitment details, news updates, and official guidelines.",
+    "tools": ["Next Js", "TypeScript", "TailwindCSS", "Mongoose", "MongoDB", "React Leaflet"],
+    "live": "https://bd-army-police.vercel.app/",
+    "github": "https://github.com/tariqul420/bd-army-police.git",
+    "category": "Informational",
+    "projectType": "Full-stack",
+    "platforms": ["Web"],
+    "launchDate": "2025-02-15",
+    "author": "Tariqul Islam"
+  },
+  {
+    "_id": 4,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737974282/film-fusion_dmcdzo.png",
+    "heading": "Film Fusion",
+    "paragraph": "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts. It serves as a centralized hub for exploring, reviewing, and managing information about films and series.",
+    "tools": ["React", "TailwindCSS", "Firebase", "MongoDB", "Javascript", "Node.js", "Express js", "Swiper js"],
+    "live": "https://film-fusion-0.web.app",
+    "github": "https://github.com/tariqul420/Film-Fusion.git",
+    "details": "https://github.com/tariqul420/Film-Fusion/blob/main/README.md",
+    "category": "Movie Platform",
+    "technologies": ["React", "TailwindCSS", "Node.js", "MongoDB", "Firebase", "Swiper JS"],
+    "projectType": "Full-stack",
+    "platforms": ["Web"],
+    "launchDate": "2025-01-05",
+    "author": "Tariqul Islam",
+    "challenges": ["Handling a large database of movies and reviews efficiently.", "Ensuring fast search and filtering for movies with high performance."],
+    "futurePlans": ["Integrate AI-powered movie recommendations.", "Develop a mobile-friendly progressive web app (PWA) version."]
+  },
+  {
+    "_id": 5,
+    "image": "https://res.cloudinary.com/dbjlihrjj/image/upload/v1737975981/weather-check_wc3bxm.png",
+    "heading": "Weather Checked",
+    "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
+    "tools": ["HTML", "Javascript", "CSS"],
+    "live": "https://tariqul420.github.io/Weather-Check/index.html",
+    "github": "https://github.com/tariqul420/Weather-Check.git",
+    "details": "https://github.com/tariqul420/Weather-Check/blob/main/README.md",
+    "category": "Weather Application",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "projectType": "Frontend",
+    "platforms": ["Web"],
+    "launchDate": "2025-01-01",
+    "author": "Tariqul Islam",
+    "challenges": ["Ensuring accurate real-time weather data from API sources.", "Optimizing API calls to prevent excessive requests and loading delays."],
+    "futurePlans": ["Implement a location-based automatic weather update feature.", "Introduce a historical weather data tracking system."]
+  }
 ]

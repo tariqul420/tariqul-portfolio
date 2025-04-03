@@ -3,7 +3,7 @@ import { Heading } from '@/Components/Common/Heading';
 import ShineBorder from '@/Components/ui/shine-border';
 import { FolderKanban, Lightbulb, Rocket, Terminal } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
-import Tariqul from '../../assets/Images/tariqul-logo.jpg';
+import Tariqul from '../../assets/Images/tariqul_cartoon.jpeg';
 
 const AboutMe = () => {
   const location = useLocation();
