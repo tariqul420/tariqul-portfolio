@@ -1,62 +1,59 @@
-import ParticlesUI from "@/Animation/ParticlesUI";
-import { ChevronUp } from "lucide-react";
-import { useEffect, useState } from "react";
-import Banner from "../../Components/Home/Banner";
-import StartProject from "../../Components/Home/StartProject";
-import AboutMe from "../AboutMe/AboutMe";
-import ContactMe from "../Contact/ContactMe";
-import Skills from "../Skills/Skills";
-import Works from "../Works/Works";
+import ParticlesUI from '@/Animation/ParticlesUI';
+import { ArrowBigUp } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import Banner from '../../Components/Home/Banner';
+import StartProject from '../../Components/Home/StartProject';
+import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../Contact/ContactMe';
+import Skills from '../Skills/Skills';
+import Works from '../Works/Works';
 
 const Home = () => {
-    const [showScrollButton, setShowScrollButton] = useState(false);
+  const [showScrollButton, setShowScrollButton] = useState(false);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollY = window.scrollY;
-            const isBottom = window.innerHeight + scrollY >= document.body.offsetHeight;
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const isBottom = window.innerHeight + scrollY >= document.body.offsetHeight;
 
-            if (scrollY > 200 && !isBottom) {
-                setShowScrollButton(true);
-            } else {
-                setShowScrollButton(false);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+      if (scrollY > 200 && !isBottom) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
     };
 
-    return (
-        <div className="relative">
-            {/* Particles */}
-            <ParticlesUI />
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-            <Banner />
-            <AboutMe />
-            <Skills />
-            <Works />
-            <ContactMe />
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
-            <StartProject />
+  return (
+    <div className="relative">
+      {/* Particles */}
+      <ParticlesUI />
 
-            {/* Scroll to Top Button */}
-            {showScrollButton && (
-                <button
-                    className="fixed bottom-6 right-3 text-primary2 bg-white dark:bg-dark-lite p-0 rounded-full shadow-lg max-sm:hidden"
-                    onClick={scrollToTop}
-                >
-                    <ChevronUp size={40} className="text-5xl" />
-                </button>
-            )}
-        </div>
-    );
+      <Banner />
+      <AboutMe />
+      <Skills />
+      <Works />
+      <ContactMe />
+
+      <StartProject />
+
+      {/* Scroll to Top Button */}
+      {showScrollButton && (
+        <button className="fixed bottom-6 right-3 bg-white dark:bg-dark-lite p-0 rounded-full max-sm:hidden border" onClick={scrollToTop}>
+          <ArrowBigUp strokeWidth={1} size={40} className="text-5xl" />
+        </button>
+      )}
+    </div>
+  );
 };
 
 export default Home;
