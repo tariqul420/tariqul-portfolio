@@ -23,7 +23,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className={`w-11/12 my-20 mx-auto ${location.pathname === '/' ? 'pt-28' : 'my-20'}`}>
+    <section className={`w-11/12 my-20 mx-auto ${location.pathname === '/' ? 'mt-20' : 'my-10'}`}>
       {/* Particles */}
       {location.pathname === '/skills' && <ParticlesUI />}
 

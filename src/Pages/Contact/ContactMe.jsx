@@ -5,7 +5,7 @@ import ContactForm from '../../Components/ContactMe/ContactForm';
 
 const ContactMe = () => {
   return (
-    <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === '/' ? 'pt-28' : 'my-20'}`}>
+    <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === '/' ? 'mt-20' : 'my-10'}`}>
       {/* Particles */}
       {location.pathname === '/contact-me' && <ParticlesUI />}
 
@@ -14,15 +14,15 @@ const ContactMe = () => {
       <div className="flex gap-12 flex-col lg:flex-row items-center justify-center">
         <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-xl dark:bg-dark-lite items-start flex flex-col justify-center sm:min-h-[350px] lg:min-h-[437px] border dark:border-none">
           <ul className="space-y-2 sm:space-y-3">
-            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 cursor-pointer dark:text-white-deep">
+            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 dark:text-white-deep">
               <PhoneCall />
               <span className="break-words">+8801743892058</span>
             </li>
-            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 cursor-pointer dark:text-white-deep">
+            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 dark:text-white-deep">
               <Mail />
               <span className="break-words">tariqul.developer@gmail.com</span>
             </li>
-            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 cursor-pointer dark:text-white-deep">
+            <li className="flex items-center text-sm sm:text-base lg:text-lg font-medium gap-2 dark:text-white-deep">
               <MapPin />
               <span className="break-words">Pabna, Bangladesh</span>
             </li>

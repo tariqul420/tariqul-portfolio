@@ -9,7 +9,7 @@ const AboutMe = () => {
   const location = useLocation();
 
   return (
-    <section className={`w-11/12 mx-auto ${location.pathname === '/' ? 'pt-28' : 'my-20'}`}>
+    <section className={`w-11/12 mx-auto ${location.pathname === '/' ? 'mt-20' : 'my-10'}`}>
       <div className="relative flex flex-col gap-20 lg:flex-row items-center">
         {/* Particles */}
         {location.pathname === '/about-me' && <ParticlesUI />}

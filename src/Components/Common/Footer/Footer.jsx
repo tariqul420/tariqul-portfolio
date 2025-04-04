@@ -46,12 +46,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://bd.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/tariqul-420-t" target="_blank" rel="noopener noreferrer">
                   <Linkedin size={30} className="hero-icon lang" />
                 </a>
               </li>
               <li>
-                <a href="https://t.me/tariqul017" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/8801743892058" target="_blank" rel="noopener noreferrer">
                   <Phone size={30} className="hero-icon lang" />
                 </a>
               </li>

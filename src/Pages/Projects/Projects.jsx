@@ -19,7 +19,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === '/' ? 'pt-28' : 'my-20'}`}>
+    <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === '/' ? 'mt-20' : 'my-10'}`}>
       {/* Particles */}
       {location.pathname === '/projects' && <ParticlesUI />}
 

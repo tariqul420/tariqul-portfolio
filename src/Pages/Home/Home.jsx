@@ -42,7 +42,9 @@ const Home = () => {
       <AboutMe />
       <Skills />
       <Projects />
-      <ContactMe />
+      <div id="contact-me">
+        <ContactMe />
+      </div>
 
       <StartProject />
 

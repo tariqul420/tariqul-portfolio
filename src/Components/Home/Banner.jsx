@@ -36,7 +36,7 @@ const Banner = () => {
   `);
 
   return (
-    <section className="-mt-[5.1rem] pt-28 pb-8">
+    <section className="mt-4">
       <div className="w-11/12 mx-auto lg:flex-row grid grid-cols-1 md:grid-cols-2 items-center">
         {/* Text Section */}
         <div className="flex-1 items-center justify-center">
