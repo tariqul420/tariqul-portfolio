@@ -39,8 +39,8 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/works" className="nav">
-            Works
+          <NavLink to="/projects" className="nav">
+            Projects
           </NavLink>
         </li>
         <li>
@@ -89,8 +89,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/works" className="block hover:text-primary transition-colors ease-in-out duration-300" onClick={() => setMobileSidebarOpen(false)}>
-              Works
+            <Link to="/projects" className="block hover:text-primary transition-colors ease-in-out duration-300" onClick={() => setMobileSidebarOpen(false)}>
+              Projects
             </Link>
           </li>
           <li>

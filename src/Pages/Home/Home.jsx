@@ -5,8 +5,8 @@ import Banner from '../../Components/Home/Banner';
 import StartProject from '../../Components/Home/StartProject';
 import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../Contact/ContactMe';
+import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
-import Works from '../Works/Works';
 
 const Home = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -41,7 +41,7 @@ const Home = () => {
       <Banner />
       <AboutMe />
       <Skills />
-      <Works />
+      <Projects />
       <ContactMe />
 
       <StartProject />

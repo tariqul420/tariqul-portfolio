@@ -10,7 +10,7 @@ const AboutMe = () => {
 
   return (
     <section className={`w-11/12 mx-auto ${location.pathname === '/' ? 'pt-28' : 'my-20'}`}>
-      <div className="flex relative flex-col gap-20 lg:flex-row items-center">
+      <div className="relative flex flex-col gap-20 lg:flex-row items-center">
         {/* Particles */}
         {location.pathname === '/about-me' && <ParticlesUI />}
 
@@ -23,94 +23,79 @@ const AboutMe = () => {
 
         {/* About Content Section */}
         <div className="lg:w-[70%] flex flex-col items-center lg:items-start text-dark-lite dark:text-white-deep">
-          {/* Section Title */}
           <Heading headingTitle="About Me" />
-
           <h2 className="text-center lg:text-start text-3xl text-primary1 font-semibold leading-[48px] mb-6">Md. Tariqul Islam</h2>
-
           <p className="text-justify text-lg font-medium leading-[31px]">
-            Hey there! I’m <strong>Tariqul Islam</strong>, a passionate <strong>Junior Frontend Developer</strong> focused on creating{' '}
-            <strong>modern, interactive, and high-performance web applications</strong>. My journey into programming started from a simple curiosity—how do websites work? That curiosity soon turned
-            into an obsession with crafting seamless user experiences and bringing ideas to life through code.
+            I’m <strong>Tariqul Islam</strong>, a dedicated <strong>Junior Frontend Developer</strong> with a passion for building{' '}
+            <strong>modern, responsive, and user-focused web applications</strong>. What started as a curiosity about how websites function has evolved into a career driven by creating seamless
+            digital experiences and solving real-world problems through code.
           </p>
         </div>
       </div>
 
       {/* Additional Information */}
-      <div className="mt-10">
-        <p className="text-justify text-lg font-medium leading-[31px]">
-          Over time, I have mastered <strong>React, TypeScript, Tailwind CSS,</strong> and backend technologies like <strong>Node.js & MongoDB</strong>. Whether it&apos;s developing feature-rich web
-          apps, building scalable backend systems, or optimizing UI/UX, I thrive on turning complex challenges into simple, elegant solutions.
-        </p>
+      <div className="mt-12 space-y-12">
+        {/* Skills & Expertise */}
+        <div>
+          <p className="text-justify text-lg font-medium leading-[31px]">
+            I specialize in <strong>React, TypeScript, and Tailwind CSS</strong>, complemented by hands-on experience with backend technologies like <strong>Node.js and MongoDB</strong>. My focus is
+            on delivering clean, efficient, and scalable solutions—whether it’s crafting intuitive UI/UX, optimizing performance, or integrating robust backend systems.
+          </p>
+        </div>
 
-        {/* My Passion Section */}
-        <div className="mt-8">
+        {/* Passion Section */}
+        <div>
           <strong className="flex items-center gap-2 text-xl font-semibold">
-            <Lightbulb className="text-primary1" /> My Passion?
+            <Lightbulb className="text-primary1" /> What Drives Me
           </strong>
-          <ul className="mt-3 space-y-2 text-lg">
-            <li>- Building highly responsive and scalable applications.</li>
-            <li>- Writing clean, efficient, and maintainable code.</li>
-            <li>- Exploring new technologies and keeping up with modern trends.</li>
-            <li>- Creating engaging user experiences with smooth interactions.</li>
+          <ul className="mt-3 space-y-2 text-lg list-disc list-inside">
+            <li>Designing responsive and scalable web applications.</li>
+            <li>Writing clean, maintainable, and well-documented code.</li>
+            <li>Enhancing user experiences through thoughtful design and interactivity.</li>
           </ul>
         </div>
 
         {/* Projects Section */}
-        <div className="mt-10">
+        <div>
           <strong className="flex items-center gap-2 text-xl font-semibold">
-            <FolderKanban className="text-primary1" /> Projects That Define Me:
+            <FolderKanban className="text-primary1" /> Featured Projects
           </strong>
-          <ul className="mt-3 space-y-2">
+          <ul className="mt-3 space-y-3 text-lg list-disc list-inside">
             <li>
-              {' '}
-              -
-              <a href="https://kutto-0.web.app/" target="_blank" className="text-primary2 hover:underline ml-2 font-semibold">
+              <a href="https://edu-genius.vercel.app" target="_blank" className="text-primary2 hover:underline font-semibold">
+                Edu Genius
+              </a>{' '}
+              – A platform streamlining service sharing for users.
+            </li>
+            <li>
+              <a href="https://kutto-0.web.app/" target="_blank" className="text-primary2 hover:underline font-semibold">
                 Kutto
               </a>{' '}
-              → A pet adoption platform connecting users with pets in need of loving homes.
+              – A pet adoption platform connecting pets with loving homes.
             </li>
             <li>
-              {' '}
-              -
-              <a href="https://bd-army-police.vercel.app/" target="_blank" className="text-primary2 hover:underline ml-2 font-semibold">
+              <a href="https://bd-army-police.vercel.app/" target="_blank" className="text-primary2 hover:underline font-semibold">
                 Bangladesh Army & Police
               </a>{' '}
-              → A resource hub providing essential information about army & police services.
-            </li>
-            <li>
-              {' '}
-              -
-              <a href="https://service-orbit.web.app/" target="_blank" className="text-primary2 hover:underline ml-2 font-semibold">
-                Service Orbit
-              </a>{' '}
-              → A service-sharing platform designed to connect users effortlessly.
-            </li>
-            <li>
-              {' '}
-              -
-              <a href="https://film-fusion-0.web.app/" target="_blank" className="text-primary2 hover:underline ml-2 font-semibold">
-                Film Fusion
-              </a>{' '}
-              → A sleek and dynamic movie information hub.
+              – A comprehensive resource hub for army and police services.
             </li>
           </ul>
         </div>
 
         {/* Beyond Coding Section */}
-        <div className="mt-10">
+        <div>
           <strong className="flex items-center gap-2 text-xl font-semibold">
-            <Terminal className="text-primary1" /> Beyond Coding:
+            <Terminal className="text-primary1" /> Beyond the Code
           </strong>
-          <p className="mt-3 text-lg">
-            When I’m not coding, you’ll probably find me cycling through nature trails, exploring new frontend tools, or reading about the latest advancements in tech. I believe that learning is a
-            never-ending journey, and I’m always eager to grow, improve, and push the boundaries of what’s possible.
+          <p className="mt-3 text-lg font-medium leading-[31px]">
+            Outside of development, I enjoy cycling through scenic trails, diving into new frontend frameworks, and staying informed on tech innovations. I’m a lifelong learner, always seeking to
+            refine my skills and explore new possibilities in the ever-evolving world of technology.
           </p>
         </div>
 
         {/* Call to Action */}
-        <div className="mt-10 flex items-center gap-2 text-2xl font-semibold">
-          Let’s create something amazing together! <Rocket className="text-primary1" />
+        <div className="flex items-center gap-3 text-xl font-semibold">
+          Ready to collaborate? Let’s build something extraordinary! <Rocket className="text-primary1" />
         </div>
       </div>
     </section>
