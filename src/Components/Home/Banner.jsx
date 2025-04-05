@@ -46,7 +46,7 @@ const Banner = () => {
 
           {/* Social Links */}
           <div className="flex gap-3 items-center justify-center lg:justify-start mt-3">
-            <a href="https://www.linkedin.com/in/tariqul-420-t/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/tariqul-dev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin size={30} className="hero-icon lang" />
             </a>
             <a href="https://github.com/tariqul420" target="_blank" rel="noopener noreferrer" aria-label="GitHub">

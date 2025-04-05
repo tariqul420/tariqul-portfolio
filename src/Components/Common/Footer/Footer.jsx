@@ -46,7 +46,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/tariqul-420-t" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/tariqul-dev" target="_blank" rel="noopener noreferrer">
                   <Linkedin size={30} className="hero-icon lang" />
                 </a>
               </li>

@@ -1,26 +1,26 @@
 [
-    {
-        "image": "https://skillicons.dev/icons?i=javascript",
-        "name": "Javascript"
-    },
-    {
-        "image": "https://skillicons.dev/icons?i=typescript",
-        "name": "Typescript"
-    },
-    {
-        "image": "https://skillicons.dev/icons?i=react",
-        "name": "React"
-    },
-    {
-        "image": "https://skillicons.dev/icons?i=nextjs",
-        "name": "Nextjs"
-    },
-    {
-        "image": "https://skillicons.dev/icons?i=mongodb",
-        "name": "Mongodb"
-    },
-    {
-        "image": "https://skillicons.dev/icons?i=nodejs",
-        "name": "Nodejs"
-    }
+  {
+    "image": "https://skillicons.dev/icons?i=javascript",
+    "name": "Javascript"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=typescript",
+    "name": "Typescript"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=react",
+    "name": "React"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=nextjs",
+    "name": "Nextjs"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=mongodb",
+    "name": "Mongodb"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=nodejs",
+    "name": "Nodejs"
+  }
 ]

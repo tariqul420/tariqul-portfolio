@@ -1,34 +1,34 @@
 {
-    "socialMedia": [
-        {
-            "link": "https://www.facebook.com/tariqul.islam.fb",
-            "image": "../assets/facebook.png",
-            "alt": "facebook"
-        },
-        {
-            "link": "https://github.com/tariqul420",
-            "image": "../assets/github0.png",
-            "alt": "github"
-        },
-        {
-            "link": "https://www.linkedin.com/in/tariqul-420-t",
-            "image": "../assets/linkedin.png",
-            "alt": "linkedin"
-        },
-        {
-            "link": "https://t.me/tariqul017?",
-            "image": "../assets/whatsapp.png",
-            "alt": "whatsapp"
-        },
-        {
-            "link": "https://t.me/tariqul017?",
-            "image": "../assets/telegram.png",
-            "alt": "telegram"
-        },
-        {
-            "link": "https://www.instagram.com/tariqul.islam.fb",
-            "image": "../assets/instagram.png",
-            "alt": "instagram"
-        }
-    ]
+  "socialMedia": [
+    {
+      "link": "https://www.facebook.com/tariqul.islam.fb",
+      "image": "../assets/facebook.png",
+      "alt": "facebook"
+    },
+    {
+      "link": "https://github.com/tariqul420",
+      "image": "../assets/github0.png",
+      "alt": "github"
+    },
+    {
+      "link": "https://www.linkedin.com/in/tariqul-dev",
+      "image": "../assets/linkedin.png",
+      "alt": "linkedin"
+    },
+    {
+      "link": "https://t.me/tariqul017?",
+      "image": "../assets/whatsapp.png",
+      "alt": "whatsapp"
+    },
+    {
+      "link": "https://t.me/tariqul017?",
+      "image": "../assets/telegram.png",
+      "alt": "telegram"
+    },
+    {
+      "link": "https://www.instagram.com/tariqul.islam.fb",
+      "image": "../assets/instagram.png",
+      "alt": "instagram"
+    }
+  ]
 }
