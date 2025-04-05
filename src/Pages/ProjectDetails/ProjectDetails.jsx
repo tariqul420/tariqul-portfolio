@@ -5,20 +5,30 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
   const [project, setProject] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
   const { slug } = useParams();
   const navigate = useNavigate();
 
   useEffect(() => {
+    setIsLoading(true);
     axios
       .get('/projects.json')
       .then((res) => {
         const projectData = res.data.find((p) => p.slug === slug);
         setProject(projectData);
+        setIsLoading(false);
       })
-      .catch((error) => console.error('Error fetching project data:', error));
+      .catch((error) => {
+        console.error('Error fetching project data:', error);
+        setIsLoading(false);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   }, [slug]);
 
-  if (!project) {
+  // Loading state
+  if (isLoading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <Loader size={25} className="text-primary2 animate-spin" />
@@ -26,6 +36,23 @@ const ProjectDetails = () => {
     );
   }
 
+  // Project not found state
+  if (!project) {
+    return (
+      <div className="max-w-2xl m-auto p-8 my-6">
+        <div className="bg-white shadow-lg rounded-xl dark:bg-dark-lite dark:text-white-deep p-8 text-center">
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">Project Not Found</h2>
+          <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">Sorry, we couldn&apos;t find the project you&apos;re looking for. It might have been removed or the URL might be incorrect.</p>
+          <button onClick={() => navigate(-1)} className="flex items-center gap-2 text-primary2 hover:text-primary-dark dark:hover:text-primary-light font-semibold mx-auto">
+            <ArrowLeft size={20} />
+            <span>Go Back</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Project found - render details
   return (
     <div className="max-w-6xl mx-auto p-8 bg-white shadow-lg rounded-xl my-6 dark:bg-dark-lite dark:text-white-deep">
       {/* 🔙 Back Button */}
