@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <ContactMe />,
       },
       {
-        path: '/project-details/:id',
+        path: '/projects/:slug',
         element: <ProjectDetails />,
       },
     ],

@@ -5,18 +5,18 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
   const [project, setProject] = useState(null);
-  const { id } = useParams();
+  const { slug } = useParams();
   const navigate = useNavigate();
 
   useEffect(() => {
     axios
       .get('/projects.json')
       .then((res) => {
-        const projectData = res.data.find((p) => p._id === Number(id));
+        const projectData = res.data.find((p) => p.slug === slug);
         setProject(projectData);
       })
       .catch((error) => console.error('Error fetching project data:', error));
-  }, [id]);
+  }, [slug]);
 
   if (!project) {
     return (
@@ -112,7 +112,7 @@ const ProjectDetails = () => {
       <div className="flex flex-col md:flex-row gap-4 justify-between items-center mt-8 space-x-6">
         <a href={project?.live} className="flex items-center text-lg font-semibold text-primary2" target="_blank" rel="noopener noreferrer">
           <Tv size={24} className="mr-2 text-dark-deep dark:text-white" />
-          Live Demo
+          Live Preview
         </a>
         <a href={project?.github} className="flex items-center text-lg font-semibold text-primary2" target="_blank" rel="noopener noreferrer">
           <Github size={24} className="mr-2 text-dark-deep dark:text-white" />
