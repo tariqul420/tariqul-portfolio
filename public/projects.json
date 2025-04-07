@@ -70,7 +70,7 @@
   {
     "slug": "Weatherly",
     "image": "/assets/projects/weatherly.png",
-    "heading": "Weather Checked",
+    "heading": "Weatherly",
     "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
     "tools": ["HTML", "Javascript", "CSS"],
     "live": "https://tariqul420.github.io/Weatherly/index.html",
