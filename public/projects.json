@@ -1,7 +1,7 @@
 [
   {
     "slug": "edu-genius",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/edu-genius.png?raw=true",
+    "image": "/assets/projects/edu-genius.png",
     "heading": "EduGenius",
     "paragraph": "EduGenius is an AI-powered Course Management System designed to personalize learning experiences. Leveraging artificial intelligence, it tracks student progress, recommends learning paths, and dynamically adapts course content to improve engagement and outcomes.",
     "tools": ["Next.js", "TailwindCSS", "ShadCN", "Node.js", "MongoDB", "OpenAI API", "Kind Authentication", "TypeScript"],
@@ -19,7 +19,7 @@
   },
   {
     "slug": "kutto",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/kutto.png?raw=true",
+    "image": "/assets/projects/kutto.png",
     "heading": "Kutto",
     "paragraph": "Welcome to Kutto, a modern web application designed to facilitate the adoption and donation process for pets. With an intuitive interface, seamless adoption flow, and user-friendly donation system, Kutto aims to revolutionize the way we interact with pet adoption.",
     "tools": ["React", "TailwindCSS", "Firebase", "Node.js", "MongoDB", "Javascript", "Stripe", "Magic/ui", "Keep React"],
@@ -37,7 +37,7 @@
   },
   {
     "slug": "tariqul-islam",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/tariqul-islam.png?raw=true",
+    "image": "/assets/projects/tariqul-islam.png",
     "heading": "Tariqul Islam",
     "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications.",
     "tools": ["Javascript", "TailwindCSS", "React", "Magic/ui", "Framer Motion", "Lottie React"],
@@ -55,7 +55,7 @@
   },
   {
     "slug": "force-guard-bangladesh",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/forceguard-bangladesh.png?raw=true",
+    "image": "/assets/projects/forceguard-bangladesh.png",
     "heading": "ForceGuard-Bangladesh",
     "paragraph": "ForceGuard-Bangladesh is a web-based platform that helps users locate Army Camps and Police Stations across Bangladesh. It provides detailed information including addresses and phone numbers using an interactive map interface.",
     "tools": ["Next Js", "TypeScript", "TailwindCSS", "Mongoose", "MongoDB", "React Leaflet"],
@@ -69,7 +69,7 @@
   },
   {
     "slug": "Weatherly",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/weatherly.png?raw=true",
+    "image": "/assets/projects/weatherly.png",
     "heading": "Weather Checked",
     "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
     "tools": ["HTML", "Javascript", "CSS"],
@@ -87,7 +87,7 @@
   },
   {
     "slug": "service-orbit",
-    "image": "https://github.com/tariqul420/tariqul-portfolio/blob/main/src/assets/projects/service-orbit.png?raw=true",
+    "image": "/assets/projects/service-orbit.png",
     "heading": "Service Orbit",
     "paragraph": "Service Orbit is a service-sharing web application designed to connect service providers with potential customers. The platform facilitates seamless interactions and transactions, empowering users to discover, offer, and engage with services efficiently.",
     "tools": ["React", "TailwindCSS", "Firebase", "Node.js", "MongoDB", "Javascript", "JWT", "Express js"],
