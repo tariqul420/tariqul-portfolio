@@ -1,6 +1,6 @@
 import { Eye, Github, Link2 } from 'lucide-react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 const WorkCard = ({ work }) => {
   const { slug, image, heading, paragraph, tools, live, github } = work || {};

@@ -3,7 +3,7 @@ import { Heading } from '@/Components/Common/Heading';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router';
 import WorkCard from '../../Components/Works/WorkCard';
 
 const Projects = () => {

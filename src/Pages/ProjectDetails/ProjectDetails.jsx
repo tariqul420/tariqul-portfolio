@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ArrowLeft, Github, Loader, TableProperties, Tv } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router';
 
 const ProjectDetails = () => {
   const [project, setProject] = useState(null);

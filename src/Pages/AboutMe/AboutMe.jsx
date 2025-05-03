@@ -2,7 +2,7 @@ import ParticlesUI from '@/Animation/ParticlesUI';
 import { Heading } from '@/Components/Common/Heading';
 import ShineBorder from '@/Components/ui/shine-border';
 import { FolderKanban, Lightbulb, Rocket, Terminal } from 'lucide-react';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router';
 import Tariqul from '../../assets/Images/tariqul_cartoon.jpeg';
 
 const AboutMe = () => {

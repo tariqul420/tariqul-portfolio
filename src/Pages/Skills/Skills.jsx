@@ -4,7 +4,7 @@ import { SkillCloud } from '@/Components/Skills/SkillCloud';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router';
 
 const Skills = () => {
   const [learningSkills, setLearningSkills] = useState([]);

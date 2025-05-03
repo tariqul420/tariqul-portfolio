@@ -1,5 +1,5 @@
 import ProjectDetails from '@/Pages/ProjectDetails/ProjectDetails';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router';
 import Root from '../Layouts/Root';
 import AboutMe from '../Pages/AboutMe/AboutMe';
 import ContactMe from '../Pages/Contact/ContactMe';

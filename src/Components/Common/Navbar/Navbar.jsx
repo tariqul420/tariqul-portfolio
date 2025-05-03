@@ -1,6 +1,6 @@
 import { AlignJustify, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router';
 import useTheme from '../../../Hooks/useTheme';
 
 const Navbar = () => {
